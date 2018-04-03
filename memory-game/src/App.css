@@ -1,28 +1,37 @@
-.App {
+nav {
+  min-height: 85px;
+  box-shadow: 0 14px 28px rgba(59, 36, 36, 0.25), 0 10px 10px rgba(0, 0, 0, .22);
+  background-color: #abd4a3;
+  font-size: 30rem;
+}
+
+.jumbotron {
+  margin-top: 85px;
+  background-color: #959595;
+  background-image: url("https://cdn.wallpapersafari.com/34/29/jsD9u3.jpg") width: 120px;
+  height: 120px;
+  background-repeat repeat;
+  color: #fff;
+  border-radius: 0;
+}
+
+a.navbar-brand {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+
+
+}
+
+.navbar ul {
+  display: block;
+  width: 100%;
+}
+.navbar li {
+  display: inline-block;
   text-align: center;
+  width: 33.3%;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.jumbotron h1 {
+  font-size: 4rem;
 }
