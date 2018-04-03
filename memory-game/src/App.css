@@ -18,7 +18,7 @@ nav {
 a.navbar-brand {
   font-weight: 900;
   color: rgb(255, 255, 255);
-  font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  font-size: 30rem;
 
 
 }
