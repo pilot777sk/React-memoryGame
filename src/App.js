@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
 import puzzle from './puzzle.json';
-import ImgCard from './components/Card';
+import Card from './components/Card';
 import {Container, Row, Navbar, NavbarBrand, Jumbotron} from 'reactstrap';
 
 class App extends Component {
 		constructor(props) {
 				super(props);
 				this.state = {
-						characters,
+						puzzle,
 						score: 0,
 						highScore: 0,
 						active: false

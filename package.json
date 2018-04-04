@@ -1,30 +1,37 @@
 {
-  "name": "React-memoryGame",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-memorygame",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^3.0.1",
     "react": "^16.3.0",
-    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.0",
+    "react-bootstrap": "^0.32.1",
     "react-scripts": "^1.1.1",
     "reactstrap": "^5.0.0-beta.3"
   },
-  "homepage": "./",
-  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.10.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-standard": "^3.0.1",
-    
-  }
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilot777sk/React-memoryGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pilot777sk/React-memoryGame/issues"
+  },
+  "homepage": "https://github.com/pilot777sk/React-memoryGame#readme"
 }

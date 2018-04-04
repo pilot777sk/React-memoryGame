@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card/Card.css';
+import './Card.css';
 
 const Card = props => (
 	<div className='card col-lg-3 col-md-4 col-xs-6' onClick={() => props.pickCard(props.id)}>
