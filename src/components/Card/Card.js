@@ -1,10 +1,16 @@
-import React from 'react';
-import './Card.css';
+import React from "react";
+import "./Card.css";
 
 const Card = props => (
-	<div className='card col-lg-3 col-md-4 col-xs-6' onClick={() => props.pickCard(props.id)}>
-		<img src={ props.image } alt={ props.name } className='cardImage img-thumbnail img-fluid' />
-	</div>
+    <div className="card">
+        <div className="img-container">
+            <a onClick={() => props.selectPuzzle(props.id)} 
+                className={props.curScore === 0 ? "style_prevu_kit style_prevu_kit_ex" : "style_prevu_kit"}
+            >
+                <img alt={props.breed} src={props.image} />
+            </a>
+        </div>
+    </div>
 );
 
 export default Card;

@@ -1,74 +1,51 @@
 [
 	{
-		"id": 1,
-		"name": "Blue",
-		"image": "./images/2d_blue.jpg",
-		"clicked": false
+			"id": 1,
+			"image": "./images/2d_blue.jpg"
 	},
 	{
-		"id": 2,
-		"name": "Colors",
-		"image": "./images/2d_colors.jpeg",
-		"clicked": false
+			"id": 2,
+			"image": "./images/2d_colors.jpeg"
 	},
 	{
-		"id": 3,
-		"name": "Green",
-		"image": "./images/2d_green.png",
-		"clicked": false
+			"id": 3,
+			"image": "./images/2d_green.png"
 	},
 	{
-		"id": 4,
-		"name": "Join",
-		"image": "./images/2d_join.jpg",
-		"clicked": false
+			"id": 4,
+			"image": "./images/2d_join.jpg"
 	},
 	{
-		"id": 5,
-		"name": "Pink",
-		"image": "./images/2d_pink.png",
-		"clicked": false
+			"id": 5,
+			"image": "./images/2d_pink.png"
 	},
 	{
-		"id": 6,
-		"name": "Purple",
-		"image": "./images/2d_purple.png",
-		"clicked": false
+			"id": 6,
+			"image": "./images/2d_purple.png"
 	},
 	{
-		"id": 7,
-		"name": "Blue 3d",
-		"image": "./images/3d_blue.jpg",
-		"clicked": false
+			"id": 7,
+			"image": "./images/3d_blue.jpg"
 	},
 	{
-		"id": 8,
-		"name": "Colors 3d",
-		"image": "./images/3d_colors.jpg",
-		"clicked": false
+			"id": 8,
+			"image": "./images/3d_colors.jpg"
 	},
 	{
-		"id": 9,
-		"name": "Green 3d",
-		"image": "./images/3d_green.jpg",
-		"clicked": false
+			"id": 9,
+			"image": "./images/3d_green.jpg"
 	},
 	{
-		"id": 10,
-		"name": "Orange 3d",
-		"image": "./images/3d_orange.jpg",
-		"clicked": false
+			"id": 10,
+			"image": "./images/3d_orange.jpg"
 	},
 	{
-		"id": 11,
-		"name": "Yellow 3d",
-		"image": "./images/3d_yellow.jpg",
-		"clicked": false
+			"id": 11,
+			"image": "./images/3d_yellow.jpg"
 	},
 	{
-		"id": 12,
-		"name": "Flat",
-		"image": "./images/4_flat.jpg",
-		"clicked": false
+			"id": 12,
+			"image": "./images/4_flat.jpg"
 	}
+	
 ]
