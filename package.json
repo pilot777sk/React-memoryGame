@@ -1,28 +1,17 @@
 {
-  "name": "react-memory-game",
+  "name": "reactmemorygame",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
+    "express": "^4.16.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-
-  
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pilot777sk/React-memoryGame.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pilot777sk/React-memoryGame/issues"
-  },
-  "homepage": "https://github.com/pilot777sk/React-memoryGame#readme"
+  }
 }

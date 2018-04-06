@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/Cellar/node/8.4.0/bin/node /usr/local/bin/yarn start
+  /usr/local/Cellar/node/8.4.0/bin/node /usr/local/bin/yarn install express
 
 PATH: 
   /usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
@@ -15,38 +15,20 @@ Platform:
 
 npm manifest: 
   {
-    "name": "react-memorygame",
-    "version": "1.0.0",
-    "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-    "main": "index.js",
+    "name": "reactmemorygame",
+    "version": "0.1.0",
+    "private": true,
     "dependencies": {
-      "bootstrap": "^4.0.0",
-      "eslint-config-standard": "^11.0.0",
-      "eslint-plugin-node": "^6.0.1",
-      "eslint-plugin-import": "^2.10.0",
-      "eslint-plugin-promise": "^3.7.0",
-      "eslint-plugin-react": "^7.7.0",
-      "eslint-plugin-standard": "^3.0.1",
-      "react": "^16.3.0",
-      "react-dom": "^16.3.0",
-      "react-bootstrap": "^0.32.1",
-      "react-scripts": "^1.1.1",
-      "reactstrap": "^5.0.0-beta.3"
+      "react": "^16.3.1",
+      "react-dom": "^16.3.1",
+      "react-scripts": "1.1.4"
     },
-    "devDependencies": {},
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pilot777sk/React-memoryGame.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/pilot777sk/React-memoryGame/issues"
-    },
-    "homepage": "https://github.com/pilot777sk/React-memoryGame#readme"
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
   }
 
 yarn manifest: 
@@ -1204,8 +1186,8 @@ Lockfile:
       resolve "1.1.7"
   
   browserify-aes@^1.0.0, browserify-aes@^1.0.4:
-    version "1.1.1"
-    resolved "https://registry.yarnpkg.com/browserify-aes/-/browserify-aes-1.1.1.tgz#38b7ab55edb806ff2dcda1a7f1620773a477c49f"
+    version "1.2.0"
+    resolved "https://registry.yarnpkg.com/browserify-aes/-/browserify-aes-1.2.0.tgz#326734642f403dabc3003209853bb70ad428ef48"
     dependencies:
       buffer-xor "^1.0.3"
       cipher-base "^1.0.0"
@@ -1381,12 +1363,12 @@ Lockfile:
       lodash.uniq "^4.5.0"
   
   caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-    version "1.0.30000821"
-    resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000821.tgz#3fcdc67c446a94a9cdd848248a4e3e54b2da7419"
+    version "1.0.30000824"
+    resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000824.tgz#bba3ff425296e04caa37fe426259206a7056551b"
   
   caniuse-lite@^1.0.30000748, caniuse-lite@^1.0.30000792:
-    version "1.0.30000821"
-    resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000821.tgz#0f3223f1e048ed96451c56ca6cf197058c42cb93"
+    version "1.0.30000824"
+    resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000824.tgz#de3bc1ba0bff4937302f8cb2a8632a8cc1c07f9a"
   
   capture-stack-trace@^1.0.0:
     version "1.0.0"
@@ -2060,9 +2042,9 @@ Lockfile:
     version "2.0.3"
     resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.3.tgz#a2033c09cc8e158d37748fbde7507832bd6ce127"
   
-  detect-port-alt@1.1.5:
-    version "1.1.5"
-    resolved "https://registry.yarnpkg.com/detect-port-alt/-/detect-port-alt-1.1.5.tgz#a1aa8fc805a4a5df9b905b7ddc7eed036bcce889"
+  detect-port-alt@1.1.6:
+    version "1.1.6"
+    resolved "https://registry.yarnpkg.com/detect-port-alt/-/detect-port-alt-1.1.6.tgz#24707deabe932d4a3cf621302027c2b266568275"
     dependencies:
       address "^1.0.1"
       debug "^2.6.0"
@@ -2192,8 +2174,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   
   electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
-    version "1.3.41"
-    resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.41.tgz#7e33643e00cd85edfd17e04194f6d00e73737235"
+    version "1.3.42"
+    resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz#95c33bf01d0cc405556aec899fe61fd4d76ea0f9"
   
   elliptic@^6.0.0:
     version "6.4.0"
@@ -5601,15 +5583,15 @@ Lockfile:
       minimist "^1.2.0"
       strip-json-comments "~2.0.1"
   
-  react-dev-utils@^5.0.0:
-    version "5.0.0"
-    resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.0.tgz#425ac7c9c40c2603bc4f7ab8836c1406e96bb473"
+  react-dev-utils@^5.0.1:
+    version "5.0.1"
+    resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-5.0.1.tgz#1f396e161fe44b595db1b186a40067289bf06613"
     dependencies:
       address "1.0.3"
       babel-code-frame "6.26.0"
       chalk "1.1.3"
       cross-spawn "5.1.0"
-      detect-port-alt "1.1.5"
+      detect-port-alt "1.1.6"
       escape-string-regexp "1.0.5"
       filesize "3.5.11"
       global-modules "1.0.0"
@@ -5624,9 +5606,9 @@ Lockfile:
       strip-ansi "3.0.1"
       text-table "0.2.0"
   
-  react-dom@16.3.0:
-    version "16.3.0"
-    resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.0.tgz#b318e52184188ecb5c3e81117420cca40618643e"
+  react-dom@16.3.1:
+    version "16.3.1"
+    resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.1.tgz#6a3c90a4fb62f915bdbcf6204422d93a7d4ca573"
     dependencies:
       fbjs "^0.8.16"
       loose-envify "^1.1.0"
@@ -5637,9 +5619,9 @@ Lockfile:
     version "4.0.0"
     resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
   
-  react-scripts@1.1.1:
-    version "1.1.1"
-    resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.1.1.tgz#279d449f7311fed910506987a1ade014027788a8"
+  react-scripts@1.1.4:
+    version "1.1.4"
+    resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.1.4.tgz#d5c230e707918d6dd2d06f303b10f5222d017c88"
     dependencies:
       autoprefixer "7.1.6"
       babel-core "6.26.0"
@@ -5670,7 +5652,8 @@ Lockfile:
       postcss-loader "2.0.8"
       promise "8.0.1"
       raf "3.4.0"
-      react-dev-utils "^5.0.0"
+      react-dev-utils "^5.0.1"
+      resolve "1.6.0"
       style-loader "0.19.0"
       sw-precache-webpack-plugin "0.11.4"
       url-loader "0.6.2"
@@ -5681,9 +5664,9 @@ Lockfile:
     optionalDependencies:
       fsevents "^1.1.3"
   
-  react@16.3.0:
-    version "16.3.0"
-    resolved "https://registry.yarnpkg.com/react/-/react-16.3.0.tgz#fc5a01c68f91e9b38e92cf83f7b795ebdca8ddff"
+  react@16.3.1:
+    version "16.3.1"
+    resolved "https://registry.yarnpkg.com/react/-/react-16.3.1.tgz#4a2da433d471251c69b6033ada30e2ed1202cfd8"
     dependencies:
       fbjs "^0.8.16"
       loose-envify "^1.1.0"
@@ -5730,15 +5713,15 @@ Lockfile:
       string_decoder "~0.10.x"
   
   readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.0.6, readable-stream@^2.1.4, readable-stream@^2.2.2, readable-stream@^2.2.9, readable-stream@^2.3.3:
-    version "2.3.5"
-    resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.5.tgz#b4f85003a938cbb6ecbce2a124fb1012bd1a838d"
+    version "2.3.6"
+    resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
     dependencies:
       core-util-is "~1.0.0"
       inherits "~2.0.3"
       isarray "~1.0.0"
       process-nextick-args "~2.0.0"
       safe-buffer "~5.1.1"
-      string_decoder "~1.0.3"
+      string_decoder "~1.1.1"
       util-deprecate "~1.0.1"
   
   readdirp@^2.0.0:
@@ -5983,7 +5966,7 @@ Lockfile:
     version "1.1.7"
     resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.1.7.tgz#203114d82ad2c5ed9e8e0411b3932875e889e97b"
   
-  resolve@^1.3.2, resolve@^1.5.0:
+  resolve@1.6.0, resolve@^1.3.2, resolve@^1.5.0:
     version "1.6.0"
     resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.6.0.tgz#0fbd21278b27b4004481c395349e7aba60a9ff5c"
     dependencies:
@@ -6439,7 +6422,7 @@ Lockfile:
       is-fullwidth-code-point "^2.0.0"
       strip-ansi "^4.0.0"
   
-  string_decoder@^1.0.0:
+  string_decoder@^1.0.0, string_decoder@~1.1.1:
     version "1.1.1"
     resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
     dependencies:
@@ -6448,12 +6431,6 @@ Lockfile:
   string_decoder@~0.10.x:
     version "0.10.31"
     resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
-  
-  string_decoder@~1.0.3:
-    version "1.0.3"
-    resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.3.tgz#0fc67d7c141825de94282dd536bec6b9bce860ab"
-    dependencies:
-      safe-buffer "~5.1.0"
   
   stringstream@~0.0.4, stringstream@~0.0.5:
     version "0.0.5"
@@ -6888,8 +6865,8 @@ Lockfile:
       requires-port "1.0.x"
   
   url-parse@^1.1.8:
-    version "1.2.0"
-    resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.2.0.tgz#3a19e8aaa6d023ddd27dcc44cb4fc8f7fec23986"
+    version "1.3.0"
+    resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.3.0.tgz#04a06c420d22beb9804f7ada2d57ad13160a4258"
     dependencies:
       querystringify "~1.0.0"
       requires-port "~1.0.0"
@@ -7292,14 +7269,10 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: Command "start" not found.
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add express" instead.
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:87307:17
+      at Object.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:21987:13)
       at Generator.next (<anonymous>)
       at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:116:14
-      at Promise (<anonymous>)
-      at F (/usr/local/lib/node_modules/yarn/lib/cli.js:23451:28)
-      at /usr/local/lib/node_modules/yarn/lib/cli.js:95:12
-      at runCommand (/usr/local/lib/node_modules/yarn/lib/cli.js:87312:22)
-      at Object.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:87412:14)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
