@@ -2,13 +2,17 @@
   "name": "reactmemorygame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pilot777sk.github.io/React-memoryGame/",
   "dependencies": {
     "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
